@@ -4,7 +4,6 @@ const startButton = document.querySelector('#start-button');
 const newGameButton = document.querySelector('#new-game-button');
 const startScreen = document.querySelector('#start-screen');
 const gameArea = document.querySelector('#game-area');
-
 let gameActive = false;
 let currentPlayer = 'A';
 let boardState = ["", "", "", "", "", "", "", "", ""];
@@ -15,7 +14,6 @@ const winningConditions = [
     [0, 3, 6], [1, 4, 7], [2, 5, 8], 
     [0, 4, 8], [2, 4, 6]             
 ];
-
 
 const winningMessage = () => `Player ${currentPlayer} has won!`;
 const drawMessage = () => `Game khatam hu!`;
